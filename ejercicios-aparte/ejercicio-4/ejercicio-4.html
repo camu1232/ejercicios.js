@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio-4.css">
+</head>
+<body>
+    <h1>Registro</h1>
+    <section>
+        <form id="form" action="">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <p class="error"></p>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <p class="error"></p>
+            </div>
+            
+            <div class="campo">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password">
+                <p class="error"></p>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+                <label class="checkbox" id="labelCheckbox" for="checkbox">Acepto los términos y condiciones</label>
+                <p class="error"></p>
+            </div>
+            
+            <div id="enviar">
+                <input type="submit" name="enviar">
+            </div>
+        </form>
+
+        <p style="color: red;"></p>
+    </section>
+
+    <script src="ejercicio-4.js"></script>
+</body>
+</html>
