@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 5px;
+    background-color: rgb(219, 209, 189);
+    text-align: center;
+}
+
+.id {
+    width: 50px;
+}
+
+.img {
+    width: 150px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
