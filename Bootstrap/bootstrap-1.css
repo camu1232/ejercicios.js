@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-orange {
+    background-color: rgb(255, 166, 0);
+}
+
+.bg-greenlight {
+    background-color: rgb(153, 255, 153);
+}
+
+#menu {
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#menu:hover {
+    background-color: rgba(154, 154, 154, 0.7);
+}
+
+#itemsMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(218, 158, 158);
+}
+
+a.nav-link {
+    color: white !important;;
+}
+
+#verMas {
+    margin: 10px;
+    background-color: rgb(255, 165, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#verMas:hover {
+    background-color: rgb(249, 201, 134);
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
